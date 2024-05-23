@@ -1,0 +1,608 @@
+{
+    "categories": [
+      {
+        "category": "Fruits",
+        "categoryUrlImage":"https",
+        "items": [
+          {
+            "Id": "FRUIT001",
+            "Name": "Apple",
+            "Description": "Crisp and juicy, apples are a delicious and nutritious fruit.",
+            "NutritionalInformation": {
+              "Calories": 52,
+              "Carbohydrates": 14,
+              "Fiber": 2.4,
+              "Vitamins": {
+                "Vitamin C": "14%",
+                "Vitamin A": "1%"
+              }
+            },
+            "Ripeness": "Choose apples that are firm and free from bruises or blemishes.",
+            "StorageTips": "Store apples in the refrigerator to keep them fresh for longer.",
+            "ImageUrl": "replace_with_actual_url"
+          },
+          {
+            "Id": "FRUIT002",
+            "Name": "Banana",
+            "Description": "Creamy and sweet, bananas are a popular tropical fruit.",
+            "NutritionalInformation": {
+              "Calories": 89,
+              "Carbohydrates": 23,
+              "Fiber": 2.6,
+              "Vitamins": {
+                "Vitamin C": "12%",
+                "Vitamin B6": "20%"
+              }
+            },
+            "Ripeness": "Choose bananas with vibrant yellow skin without any green or brown spots.",
+            "StorageTips": "Store bananas at room temperature. Refrigerate ripe bananas to extend their shelf life.",
+            "ImageUrl": "replace_with_actual_url"
+          },
+          {
+            "Id": "FRUIT003",
+            "Name": "Grapes",
+            "Description": "Sweet and juicy, grapes come in a variety of colors and flavors.",
+            "NutritionalInformation": {
+              "Calories": 69,
+              "Carbohydrates": 18,
+              "Fiber": 0.9,
+              "Vitamins": {
+                "Vitamin K": "22%",
+                "Vitamin C": "27%"
+              }
+            },
+            "Ripeness": "Choose grapes that are plump, firm, and firmly attached to the stems.",
+            "StorageTips": "Store grapes in the refrigerator in a perforated plastic bag to maintain freshness.",
+            "ImageUrl": "replace_with_actual_url"
+          },
+          {
+            "Id": "FRUIT004",
+            "Name": "Orange",
+            "Description": "Juicy and tangy, oranges are packed with vitamin C and refreshing flavor.",
+            "NutritionalInformation": {
+              "Calories": 62,
+              "Carbohydrates": 15,
+              "Fiber": 3.1,
+              "Vitamins": {
+                "Vitamin C": "116%",
+                "Vitamin A": "8%"
+              }
+            },
+            "Ripeness": "Choose oranges that feel heavy for their size and have firm, smooth skin.",
+            "StorageTips": "Store oranges at room temperature or in the refrigerator for longer shelf life.",
+            "ImageUrl": "replace_with_actual_url"
+          },
+          {
+            "Id": "FRUIT005",
+            "Name": "Strawberry",
+            "Description": "Sweet and juicy, strawberries are a summertime favorite.",
+            "NutritionalInformation": {
+              "Calories": 33,
+              "Carbohydrates": 8,
+              "Fiber": 2,
+              "Vitamins": {
+                "Vitamin C": "98%",
+                "Vitamin K": "2%"
+              }
+            },
+            "Ripeness": "Choose strawberries that are bright red, plump, and fragrant.",
+            "StorageTips": "Store strawberries in the refrigerator and wash them just before eating.",
+            "ImageUrl": "replace_with_actual_url"
+          },
+          {
+            "Id": "FRUIT006",
+            "Name": "Avocado",
+            "Description": "Creamy and nutritious, avocados are a versatile fruit.",
+            "NutritionalInformation": {
+              "Calories": 160,
+              "Carbohydrates": 9,
+              "Fiber": 7,
+              "Vitamins": {
+                "Vitamin K": "26%",
+                "Vitamin C": "17%"
+              }
+            },
+            "Ripeness": "Choose avocados that yield to gentle pressure when squeezed.",
+            "StorageTips": "Store unripe avocados at room temperature until they ripen, then refrigerate.",
+            "ImageUrl": "replace_with_actual_url"
+          }
+        ]
+      },
+      {
+        "category": "Vegetables",
+        "categoryUrlImage":"https",
+        "items": [
+          {
+            "Id": "VEG001",
+            "Name": "Carrot",
+            "Description": "Crunchy and sweet, carrots are a versatile root vegetable.",
+            "NutritionalInformation": {
+              "Calories": 41,
+              "Carbohydrates": 10,
+              "Fiber": 2.8,
+              "Vitamins": {
+                "Vitamin A": "334%",
+                "Vitamin C": "9%"
+              }
+            },
+            "Ripeness": "Choose carrots that are firm, smooth, and brightly colored.",
+            "StorageTips": "Store carrots in the refrigerator in a plastic bag to keep them fresh.",
+            "ImageUrl": "replace_with_actual_url"
+          },
+          {
+            "Id": "VEG002",
+            "Name": "Broccoli",
+            "Description": "Rich in nutrients, broccoli is a healthy and versatile vegetable.",
+            "NutritionalInformation": {
+              "Calories": 55,
+              "Carbohydrates": 11,
+              "Fiber": 3.7,
+              "Vitamins": {
+                "Vitamin C": "135%",
+                "Vitamin A": "11%"
+              }
+            },
+            "Ripeness": "Choose broccoli with firm, dark green florets and fresh-looking stems.",
+            "StorageTips": "Store broccoli in the refrigerator in a plastic bag to maintain freshness.",
+            "ImageUrl": "replace_with_actual_url"
+          },
+          {
+            "Id": "VEG003",
+            "Name": "Spinach",
+            "Description": "Nutrient-dense and versatile, spinach is great for salads and cooking.",
+            "NutritionalInformation": {
+              "Calories": 23,
+              "Carbohydrates": 3.6,
+              "Fiber": 2.2,
+              "Vitamins": {
+                "Vitamin A": "56%",
+                "Vitamin C": "14%"
+              }
+            },
+            "Ripeness": "Choose spinach leaves that are crisp and dark green without any yellowing.",
+            "StorageTips": "Store spinach in the refrigerator in a plastic bag to keep it fresh.",
+            "ImageUrl": "replace_with_actual_url"
+          },
+          {
+            "Id": "VEG004",
+            "Name": "Tomato",
+            "Description": "Juicy and flavorful, tomatoes are perfect for salads and cooking.",
+            "NutritionalInformation": {
+              "Calories": 18,
+              "Carbohydrates": 3.9,
+              "Fiber": 1.2,
+              "Vitamins": {
+                "Vitamin C": "21%",
+                "Vitamin A": "16%"
+              }
+            },
+            "Ripeness": "Choose tomatoes that are firm, smooth, and have a deep, rich color.",
+            "StorageTips": "Store tomatoes at room temperature and use them within a few days for best flavor.",
+            "ImageUrl": "replace_with_actual_url"
+          },
+          {
+            "Id": "VEG005",
+            "Name": "Cucumber",
+            "Description": "Crisp and refreshing, cucumbers are great for salads and snacking.",
+            "NutritionalInformation": {
+              "Calories": 16,
+              "Carbohydrates": 3.6,
+              "Fiber": 0.5,
+              "Vitamins": {
+                "Vitamin K": "16%",
+                "Vitamin C": "4%"
+              }
+            },
+            "Ripeness": "Choose cucumbers that are firm and have a vibrant green color.",
+            "StorageTips": "Store cucumbers in the refrigerator in a plastic bag to keep them fresh.",
+            "ImageUrl": "replace_with_actual_url"
+          },
+          {
+            "Id": "VEG006",
+            "Name": "Bell Pepper",
+            "Description": "Sweet and crunchy, bell peppers come in a variety of colors and are versatile.",
+            "NutritionalInformation": {
+              "Calories": 31,
+              "Carbohydrates": 6,
+              "Fiber": 2.1,
+              "Vitamins": {
+                "Vitamin C": "169%",
+                "Vitamin A": "15%"
+              }
+            },
+            "Ripeness": "Choose bell peppers that are firm and have smooth, glossy skin.",
+            "StorageTips": "Store bell peppers in the refrigerator in a plastic bag to keep them fresh.",
+            "ImageUrl": "replace_with_actual_url"
+          }
+        ]
+      },
+      {
+        "category": "Dairy",
+        "categoryUrlImage":"https",
+        "items": [
+          {
+            "Id": "DAIRY001",
+            "Name": "Milk",
+            "Description": "A rich source of calcium and protein, milk is essential for strong bones.",
+            "NutritionalInformation": {
+              "Calories": 42,
+              "Carbohydrates": 5,
+              "Fiber": 0,
+              "Vitamins": {
+                "Vitamin D": "15%",
+                "Calcium": "10%"
+              }
+            },
+            "Ripeness": "Check the expiration date to ensure freshness.",
+            "StorageTips": "Store milk in the refrigerator at 4°C or below.",
+            "ImageUrl": "replace_with_actual_url"
+          },
+          {
+            "Id": "DAIRY002",
+            "Name": "Cheese",
+            "Description": "Cheese comes in many varieties and is rich in flavor and nutrients.",
+            "NutritionalInformation": {
+              "Calories": 113,
+              "Carbohydrates": 1.3,
+              "Fiber": 0,
+              "Vitamins": {
+                "Vitamin A": "10%",
+                "Calcium": "20%"
+              }
+            },
+            "Ripeness": "Choose cheese that is well-packaged and free from mold (unless it’s a blue cheese).",
+            "StorageTips": "Store cheese in the refrigerator and wrap it in wax paper or cheese paper.",
+            "ImageUrl": "replace_with_actual_url"
+          },
+          {
+            "Id": "DAIRY003",
+            "Name": "Yogurt",
+            "Description": "Creamy and tangy, yogurt is a good source of probiotics and calcium.",
+            "NutritionalInformation": {
+              "Calories": 59,
+              "Carbohydrates": 3.6,
+              "Fiber": 0,
+              "Vitamins": {
+                "Vitamin D": "1%",
+                "Calcium": "14%"
+              }
+            },
+            "Ripeness": "Choose yogurt that is free from artificial colors and preservatives.",
+            "StorageTips": "Store yogurt in the refrigerator and consume by the expiration date.",
+            "ImageUrl": "replace_with_actual_url"
+          },
+          {
+            "Id": "DAIRY004",
+            "Name": "Butter",
+            "Description": "Rich and creamy, butter is a versatile dairy product used in cooking and baking.",
+            "NutritionalInformation": {
+              "Calories": 102,
+              "Carbohydrates": 0.1,
+              "Fiber": 0,
+              "Vitamins": {
+                "Vitamin A": "11%",
+                "Calcium": "0%"
+              }
+            },
+            "Ripeness": "Choose butter that is well-packaged and free from discoloration.",
+            "StorageTips": "Store butter in the refrigerator and keep it wrapped to prevent absorption of other flavors.",
+            "ImageUrl": "replace_with_actual_url"
+          },
+          {
+            "Id": "DAIRY005",
+            "Name": "Cream",
+            "Description": "Rich and smooth, cream is perfect for adding to coffee or using in cooking.",
+            "NutritionalInformation": {
+              "Calories": 52,
+              "Carbohydrates": 0.5,
+              "Fiber": 0,
+              "Vitamins": {
+                "Vitamin A": "3%",
+                "Calcium": "0%"
+              }
+            },
+            "Ripeness": "Choose cream that is well-packaged and has a uniform texture.",
+            "StorageTips": "Store cream in the refrigerator and use it by the expiration date.",
+            "ImageUrl": "replace_with_actual_url"
+          },
+          {
+            "Id": "DAIRY006",
+            "Name": "Ice Cream",
+            "Description": "A sweet and creamy treat, ice cream comes in a variety of flavors.",
+            "NutritionalInformation": {
+              "Calories": 207,
+              "Carbohydrates": 24,
+              "Fiber": 0.5,
+              "Vitamins": {
+                "Vitamin A": "9%",
+                "Calcium": "10%"
+              }
+            },
+            "Ripeness": "Choose ice cream that is well-packaged and free from ice crystals.",
+            "StorageTips": "Store ice cream in the freezer and consume it within a few weeks for best quality.",
+            "ImageUrl": "replace_with_actual_url"
+          }
+        ]
+      },
+      {
+        "category": "Spices",
+        "categoryUrlImage":"https",
+        "items": [
+          {
+            "Id": "SPICE001",
+            "Name": "Cinnamon",
+            "Description": "Warm and sweet, cinnamon is a popular spice for both sweet and savory dishes.",
+            "NutritionalInformation": {
+              "Calories": 6,
+              "Carbohydrates": 2,
+              "Fiber": 1.2,
+              "Vitamins": {
+                "Vitamin A": "0%",
+                "Calcium": "3%"
+              }
+            },
+            "Ripeness": "Choose cinnamon sticks that are tightly rolled and free from cracks.",
+            "StorageTips": "Store cinnamon in a cool, dark place in an airtight container.",
+            "ImageUrl": "replace_with_actual_url"
+          },
+          {
+            "Id": "SPICE002",
+            "Name": "Turmeric",
+            "Description": "Turmeric has a warm, bitter flavor and is known for its vibrant yellow color.",
+            "NutritionalInformation": {
+              "Calories": 29,
+              "Carbohydrates": 6.3,
+              "Fiber": 2.1,
+              "Vitamins": {
+                "Vitamin C": "3%",
+                "Iron": "16%"
+              }
+            },
+            "Ripeness": "Choose ground turmeric that is bright in color and has a strong aroma.",
+            "StorageTips": "Store turmeric in a cool, dark place in an airtight container.",
+            "ImageUrl": "replace_with_actual_url"
+          },
+          {
+            "Id": "SPICE003",
+            "Name": "Black Pepper",
+            "Description": "Black pepper is a versatile spice that adds a pungent flavor to dishes.",
+            "NutritionalInformation": {
+              "Calories": 6,
+              "Carbohydrates": 1.5,
+              "Fiber": 0.6,
+              "Vitamins": {
+                "Vitamin A": "1%",
+                "Calcium": "3%"
+              }
+            },
+            "Ripeness": "Choose whole peppercorns that are firm and have a strong aroma.",
+            "StorageTips": "Store black pepper in a cool, dark place in an airtight container.",
+            "ImageUrl": "replace_with_actual_url"
+          },
+          {
+            "Id": "SPICE004",
+            "Name": "Paprika",
+            "Description": "Paprika adds a mild, sweet flavor and vibrant color to dishes.",
+            "NutritionalInformation": {
+              "Calories": 19,
+              "Carbohydrates": 4,
+              "Fiber": 2,
+              "Vitamins": {
+                "Vitamin A": "71%",
+                "Vitamin C": "8%"
+              }
+            },
+            "Ripeness": "Choose paprika that is bright red and free from clumps.",
+            "StorageTips": "Store paprika in a cool, dark place in an airtight container.",
+            "ImageUrl": "replace_with_actual_url"
+          },
+          {
+            "Id": "SPICE005",
+            "Name": "Ginger",
+            "Description": "Ginger has a warm, spicy flavor and is used in both sweet and savory dishes.",
+            "NutritionalInformation": {
+              "Calories": 18,
+              "Carbohydrates": 4,
+              "Fiber": 0.5,
+              "Vitamins": {
+                "Vitamin C": "2%",
+                "Magnesium": "2%"
+              }
+            },
+            "Ripeness": "Choose ginger that is firm and free from wrinkles and mold.",
+            "StorageTips": "Store ginger in the refrigerator or freezer to extend its shelf life.",
+            "ImageUrl": "replace_with_actual_url"
+          },
+          {
+            "Id": "SPICE006",
+            "Name": "Cumin",
+            "Description": "Cumin has a warm, earthy flavor and is commonly used in spice blends.",
+            "NutritionalInformation": {
+              "Calories": 8,
+              "Carbohydrates": 0.9,
+              "Fiber": 0.3,
+              "Vitamins": {
+                "Vitamin A": "1%",
+                "Calcium": "2%"
+              }
+            },
+            "Ripeness": "Choose cumin seeds that are firm and free from debris.",
+            "StorageTips": "Store cumin in a cool, dark place in an airtight container.",
+            "ImageUrl": "replace_with_actual_url"
+          }
+        ]
+      },
+      {
+        "category": "Grains",
+        "categoryUrlImage": "replace_with_actual_category_url",
+        "items": [
+            {
+                "Id": "GRAIN001",
+                "Name": "Rice",
+                "Description": "A staple food, rice is versatile and can be used in a variety of dishes.",
+                "NutritionalInformation": {
+                    "Calories": 130,
+                    "Carbohydrates": 28,
+                    "Fiber": 0.4,
+                    "Vitamins": {
+                        "Vitamin B1": "2%",
+                        "Magnesium": "3%"
+                    }
+                },
+                "Ripeness": "Choose rice that is uniform in color and free from impurities.",
+                "StorageTips": "Store rice in an airtight container in a cool, dry place.",
+                "ImageUrl": "replace_with_actual_url"
+            },
+            {
+                "Id": "GRAIN002",
+                "Name": "Quinoa",
+                "Description": "A high-protein grain, quinoa is a great alternative to rice and other grains.",
+                "NutritionalInformation": {
+                    "Calories": 120,
+                    "Carbohydrates": 21,
+                    "Fiber": 2.8,
+                    "Vitamins": {
+                        "Vitamin B6": "10%",
+                        "Magnesium": "30%"
+                    }
+                },
+                "Ripeness": "Choose quinoa that is free from debris and has a consistent color.",
+                "StorageTips": "Store quinoa in an airtight container in a cool, dry place.",
+                "ImageUrl": "replace_with_actual_url"
+            },
+            {
+                "Id": "GRAIN003",
+                "Name": "Oats",
+                "Description": "Oats are nutritious and versatile, perfect for breakfast and baking.",
+                "NutritionalInformation": {
+                    "Calories": 154,
+                    "Carbohydrates": 27,
+                    "Fiber": 4,
+                    "Vitamins": {
+                        "Vitamin B1": "15%",
+                        "Iron": "10%"
+                    }
+                },
+                "Ripeness": "Choose oats that are whole and free from moisture.",
+                "StorageTips": "Store oats in an airtight container in a cool, dry place.",
+                "ImageUrl": "replace_with_actual_url"
+            },
+            {
+                "Id": "GRAIN004",
+                "Name": "Barley",
+                "Description": "A nutritious grain, barley is often used in soups and stews.",
+                "NutritionalInformation": {
+                    "Calories": 193,
+                    "Carbohydrates": 44,
+                    "Fiber": 6,
+                    "Vitamins": {
+                        "Vitamin B3": "15%",
+                        "Iron": "12%"
+                    }
+                },
+                "Ripeness": "Choose barley that is plump and free from impurities.",
+                "StorageTips": "Store barley in an airtight container in a cool, dry place.",
+                "ImageUrl": "replace_with_actual_url"
+            },
+            {
+                "Id": "GRAIN005",
+                "Name": "Cornmeal",
+                "Description": "Cornmeal is a versatile ingredient used in baking and cooking.",
+                "NutritionalInformation": {
+                    "Calories": 103,
+                    "Carbohydrates": 22,
+                    "Fiber": 2.4,
+                    "Vitamins": {
+                        "Vitamin B6": "5%",
+                        "Iron": "4%"
+                    }
+                },
+                "Ripeness": "Choose cornmeal that is finely ground and free from clumps.",
+                "StorageTips": "Store cornmeal in an airtight container in a cool, dry place.",
+                "ImageUrl": "replace_with_actual_url"
+            },
+            {
+                "Id": "GRAIN006",
+                "Name": "Millet",
+                "Description": "Millet is a nutritious grain often used in porridge and baking.",
+                "NutritionalInformation": {
+                    "Calories": 119,
+                    "Carbohydrates": 23,
+                    "Fiber": 1.3,
+                    "Vitamins": {
+                        "Vitamin B6": "10%",
+                        "Magnesium": "19%"
+                    }
+                },
+                "Ripeness": "Choose millet that is free from impurities and has a consistent color.",
+                "StorageTips": "Store millet in an airtight container in a cool, dry place.",
+                "ImageUrl": "replace_with_actual_url"
+            }
+        ]
+    },    
+    {
+        "category": "Household and Cleaning",
+        "items": [
+            {
+                "Id": "HCL001",
+                "Name": "Air freshener",
+                "Description": "Keeps your home smelling fresh and clean.",
+                "Usage": "Spray in the air and on surfaces for a fresh scent.",
+                "StorageTips": "Store in a cool, dry place away from direct sunlight.",
+                "ImageUrl": "replace_with_actual_url"
+            },
+            {
+                "Id": "HCL002",
+                "Name": "Dish soap",
+                "Description": "Effective at removing grease and grime from dishes.",
+                "Usage": "Apply to a sponge or directly on dishes, then rinse thoroughly.",
+                "StorageTips": "Store in a cool, dry place.",
+                "ImageUrl": "replace_with_actual_url"
+            },
+            {
+                "Id": "HCL003",
+                "Name": "Garbage bags",
+                "Description": "Durable and reliable bags for waste disposal.",
+                "Usage": "Line trash bins to collect and dispose of waste.",
+                "StorageTips": "Store in a cool, dry place.",
+                "ImageUrl": "replace_with_actual_url"
+            },
+            {
+                "Id": "HCL004",
+                "Name": "Laundry detergent",
+                "Description": "Cleans clothes effectively, removing stains and odors.",
+                "Usage": "Use the recommended amount in your washing machine.",
+                "StorageTips": "Store in a cool, dry place.",
+                "ImageUrl": "replace_with_actual_url"
+            },
+            {
+                "Id": "HCL005",
+                "Name": "Paper towels",
+                "Description": "Absorbent towels for cleaning up spills and messes.",
+                "Usage": "Tear off a sheet and use as needed.",
+                "StorageTips": "Store in a dry place.",
+                "ImageUrl": "replace_with_actual_url"
+            },
+            {
+                "Id": "HCL006",
+                "Name": "Sponges",
+                "Description": "Versatile cleaning tools for dishes and surfaces.",
+                "Usage": "Wet and use with cleaning solution to scrub surfaces.",
+                "StorageTips": "Store in a dry place.",
+                "ImageUrl": "replace_with_actual_url"
+            },
+            {
+                "Id": "HCL007",
+                "Name": "Surface spray",
+                "Description": "Multi-purpose cleaner for various surfaces.",
+                "Usage": "Spray on surfaces and wipe clean with a cloth.",
+                "StorageTips": "Store in a cool, dry place.",
+                "ImageUrl": "replace_with_actual_url"
+            }
+        ]
+    }
+    
+]
+}
+    
+  

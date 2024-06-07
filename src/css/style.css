@@ -44,6 +44,9 @@ body{
     width: 25px;
     
 }
+button.hide{
+ display: none;   
+}
 
 #main-footer{
     display: block;
@@ -99,21 +102,71 @@ body{
     text-align: center;
 }
 
-.grid-container{
+#grid-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-auto-flow: row;
     gap: 1rem;
+    visibility: visible;
 }
 
 .grid-item{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--primary-color);
 }
 
 .grid-item img{
     width: 100%;
 }
+
+.grid-item a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+/********************
+Css for fruits.html page
+**********************/
+
+#fruits{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-auto-flow: row;
+    gap: 1rem;
+    visibility: visible;
+}
+
+.grid-fruit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grid-fruit img{
+    width: 100%;
+    height: 80%;
+}
+
+.buttons{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.grid-fruit a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
 

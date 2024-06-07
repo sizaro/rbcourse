@@ -2,7 +2,8 @@
     "categories": [
       {
         "category": "Fruits",
-        "categoryUrlImage":"https",
+        "categoryUrlImage":"/images/fruits-category.jpg",
+        "categoryPage":"/product_pages/fruits.html",
         "items": [
           {
             "Id": "FRUIT001",
@@ -19,7 +20,8 @@
             },
             "Ripeness": "Choose apples that are firm and free from bruises or blemishes.",
             "StorageTips": "Store apples in the refrigerator to keep them fresh for longer.",
-            "ImageUrl": "replace_with_actual_url"
+            "ImageUrl": "/images/apples.jpg",
+            "price":2.5
           },
           {
             "Id": "FRUIT002",
@@ -36,7 +38,8 @@
             },
             "Ripeness": "Choose bananas with vibrant yellow skin without any green or brown spots.",
             "StorageTips": "Store bananas at room temperature. Refrigerate ripe bananas to extend their shelf life.",
-            "ImageUrl": "replace_with_actual_url"
+            "ImageUrl": "/images/bananas.jpg",
+            "price":0.8
           },
           {
             "Id": "FRUIT003",
@@ -53,7 +56,8 @@
             },
             "Ripeness": "Choose grapes that are plump, firm, and firmly attached to the stems.",
             "StorageTips": "Store grapes in the refrigerator in a perforated plastic bag to maintain freshness.",
-            "ImageUrl": "replace_with_actual_url"
+            "ImageUrl": "/images/grapes.jpg",
+            "price":1.5
           },
           {
             "Id": "FRUIT004",
@@ -70,7 +74,8 @@
             },
             "Ripeness": "Choose oranges that feel heavy for their size and have firm, smooth skin.",
             "StorageTips": "Store oranges at room temperature or in the refrigerator for longer shelf life.",
-            "ImageUrl": "replace_with_actual_url"
+            "ImageUrl": "/images/oranges1.jpg",
+            "price":1.6
           },
           {
             "Id": "FRUIT005",
@@ -87,7 +92,8 @@
             },
             "Ripeness": "Choose strawberries that are bright red, plump, and fragrant.",
             "StorageTips": "Store strawberries in the refrigerator and wash them just before eating.",
-            "ImageUrl": "replace_with_actual_url"
+            "ImageUrl": "/images/strawberries.jpg",
+            "price":1.0
           },
           {
             "Id": "FRUIT006",
@@ -104,13 +110,14 @@
             },
             "Ripeness": "Choose avocados that yield to gentle pressure when squeezed.",
             "StorageTips": "Store unripe avocados at room temperature until they ripen, then refrigerate.",
-            "ImageUrl": "replace_with_actual_url"
+            "ImageUrl": "/images/avocados.jpg",
+            "price":2.0
           }
         ]
       },
       {
         "category": "Vegetables",
-        "categoryUrlImage":"https",
+        "categoryUrlImage":"/images/vegetables-category.svg",
         "items": [
           {
             "Id": "VEG001",
@@ -127,7 +134,8 @@
             },
             "Ripeness": "Choose carrots that are firm, smooth, and brightly colored.",
             "StorageTips": "Store carrots in the refrigerator in a plastic bag to keep them fresh.",
-            "ImageUrl": "replace_with_actual_url"
+            "ImageUrl": "/images/carrots.jpeg",
+            "price": 1.0
           },
           {
             "Id": "VEG002",
@@ -144,7 +152,8 @@
             },
             "Ripeness": "Choose broccoli with firm, dark green florets and fresh-looking stems.",
             "StorageTips": "Store broccoli in the refrigerator in a plastic bag to maintain freshness.",
-            "ImageUrl": "replace_with_actual_url"
+            "ImageUrl": "/images/broccoli.jpeg",
+            "price":0.5
           },
           {
             "Id": "VEG003",
@@ -161,7 +170,8 @@
             },
             "Ripeness": "Choose spinach leaves that are crisp and dark green without any yellowing.",
             "StorageTips": "Store spinach in the refrigerator in a plastic bag to keep it fresh.",
-            "ImageUrl": "replace_with_actual_url"
+            "ImageUrl": "/images/spinach.jpeg",
+            "price":0.2
           },
           {
             "Id": "VEG004",
@@ -178,7 +188,8 @@
             },
             "Ripeness": "Choose tomatoes that are firm, smooth, and have a deep, rich color.",
             "StorageTips": "Store tomatoes at room temperature and use them within a few days for best flavor.",
-            "ImageUrl": "replace_with_actual_url"
+            "ImageUrl": "replace_with_actual_url",
+            "price":0.5
           },
           {
             "Id": "VEG005",
@@ -195,7 +206,8 @@
             },
             "Ripeness": "Choose cucumbers that are firm and have a vibrant green color.",
             "StorageTips": "Store cucumbers in the refrigerator in a plastic bag to keep them fresh.",
-            "ImageUrl": "replace_with_actual_url"
+            "ImageUrl": "replace_with_actual_url",
+            "price":0.4
           },
           {
             "Id": "VEG006",
@@ -212,13 +224,14 @@
             },
             "Ripeness": "Choose bell peppers that are firm and have smooth, glossy skin.",
             "StorageTips": "Store bell peppers in the refrigerator in a plastic bag to keep them fresh.",
-            "ImageUrl": "replace_with_actual_url"
+            "ImageUrl": "replace_with_actual_url",
+            "price":0.2
           }
         ]
       },
       {
         "category": "Dairy",
-        "categoryUrlImage":"https",
+        "categoryUrlImage":"/images/diary-category.jpg",
         "items": [
           {
             "Id": "DAIRY001",
@@ -235,7 +248,8 @@
             },
             "Ripeness": "Check the expiration date to ensure freshness.",
             "StorageTips": "Store milk in the refrigerator at 4°C or below.",
-            "ImageUrl": "replace_with_actual_url"
+            "ImageUrl": "/images/milk.webp",
+            "price":0.9
           },
           {
             "Id": "DAIRY002",
@@ -252,7 +266,8 @@
             },
             "Ripeness": "Choose cheese that is well-packaged and free from mold (unless it’s a blue cheese).",
             "StorageTips": "Store cheese in the refrigerator and wrap it in wax paper or cheese paper.",
-            "ImageUrl": "replace_with_actual_url"
+            "ImageUrl": "/images/cheese.jpg",
+            "price":1.3
           },
           {
             "Id": "DAIRY003",
@@ -269,7 +284,8 @@
             },
             "Ripeness": "Choose yogurt that is free from artificial colors and preservatives.",
             "StorageTips": "Store yogurt in the refrigerator and consume by the expiration date.",
-            "ImageUrl": "replace_with_actual_url"
+            "ImageUrl": "/images/yoghurt.jpg",
+            "price":3
           },
           {
             "Id": "DAIRY004",
@@ -286,7 +302,8 @@
             },
             "Ripeness": "Choose butter that is well-packaged and free from discoloration.",
             "StorageTips": "Store butter in the refrigerator and keep it wrapped to prevent absorption of other flavors.",
-            "ImageUrl": "replace_with_actual_url"
+            "ImageUrl": "/images/butter.jpg",
+            "price":2
           },
           {
             "Id": "DAIRY005",
@@ -303,7 +320,8 @@
             },
             "Ripeness": "Choose cream that is well-packaged and has a uniform texture.",
             "StorageTips": "Store cream in the refrigerator and use it by the expiration date.",
-            "ImageUrl": "replace_with_actual_url"
+            "ImageUrl": "replace_with_actual_url",
+            "price":3.5
           },
           {
             "Id": "DAIRY006",
@@ -320,13 +338,14 @@
             },
             "Ripeness": "Choose ice cream that is well-packaged and free from ice crystals.",
             "StorageTips": "Store ice cream in the freezer and consume it within a few weeks for best quality.",
-            "ImageUrl": "replace_with_actual_url"
+            "ImageUrl": "/images/ice cream.jpg",
+            "price":1.1
           }
         ]
       },
       {
         "category": "Spices",
-        "categoryUrlImage":"https",
+        "categoryUrlImage":"/images/spices-category.svg",
         "items": [
           {
             "Id": "SPICE001",
@@ -343,7 +362,8 @@
             },
             "Ripeness": "Choose cinnamon sticks that are tightly rolled and free from cracks.",
             "StorageTips": "Store cinnamon in a cool, dark place in an airtight container.",
-            "ImageUrl": "replace_with_actual_url"
+            "ImageUrl": "/images/cinnamon.jpg",
+            "price":0.4
           },
           {
             "Id": "SPICE002",
@@ -360,7 +380,8 @@
             },
             "Ripeness": "Choose ground turmeric that is bright in color and has a strong aroma.",
             "StorageTips": "Store turmeric in a cool, dark place in an airtight container.",
-            "ImageUrl": "replace_with_actual_url"
+            "ImageUrl": "/images/turmeric.jpg",
+            "price":0.3
           },
           {
             "Id": "SPICE003",
@@ -377,7 +398,8 @@
             },
             "Ripeness": "Choose whole peppercorns that are firm and have a strong aroma.",
             "StorageTips": "Store black pepper in a cool, dark place in an airtight container.",
-            "ImageUrl": "replace_with_actual_url"
+            "ImageUrl": "/images/black pepper.avif",
+            "price":0.2
           },
           {
             "Id": "SPICE004",
@@ -394,7 +416,8 @@
             },
             "Ripeness": "Choose paprika that is bright red and free from clumps.",
             "StorageTips": "Store paprika in a cool, dark place in an airtight container.",
-            "ImageUrl": "replace_with_actual_url"
+            "ImageUrl": "/images/paprika.jpg",
+            "price":0.5
           },
           {
             "Id": "SPICE005",
@@ -411,7 +434,8 @@
             },
             "Ripeness": "Choose ginger that is firm and free from wrinkles and mold.",
             "StorageTips": "Store ginger in the refrigerator or freezer to extend its shelf life.",
-            "ImageUrl": "replace_with_actual_url"
+            "ImageUrl": "/images/ginger.jpg",
+            "price":0.3
           },
           {
             "Id": "SPICE006",
@@ -428,13 +452,14 @@
             },
             "Ripeness": "Choose cumin seeds that are firm and free from debris.",
             "StorageTips": "Store cumin in a cool, dark place in an airtight container.",
-            "ImageUrl": "replace_with_actual_url"
+            "ImageUrl": "/images/cumin.jpg",
+            "price":0.4
           }
         ]
       },
       {
         "category": "Grains",
-        "categoryUrlImage": "replace_with_actual_category_url",
+        "categoryUrlImage": "/images/grains-category.svg",
         "items": [
             {
                 "Id": "GRAIN001",
@@ -451,7 +476,8 @@
                 },
                 "Ripeness": "Choose rice that is uniform in color and free from impurities.",
                 "StorageTips": "Store rice in an airtight container in a cool, dry place.",
-                "ImageUrl": "replace_with_actual_url"
+                "ImageUrl": "/images/rice.jpg",
+                "price":1.5
             },
             {
                 "Id": "GRAIN002",
@@ -468,7 +494,8 @@
                 },
                 "Ripeness": "Choose quinoa that is free from debris and has a consistent color.",
                 "StorageTips": "Store quinoa in an airtight container in a cool, dry place.",
-                "ImageUrl": "replace_with_actual_url"
+                "ImageUrl": "/images/quinoa.jpg",
+                "price":1.0
             },
             {
                 "Id": "GRAIN003",
@@ -485,7 +512,8 @@
                 },
                 "Ripeness": "Choose oats that are whole and free from moisture.",
                 "StorageTips": "Store oats in an airtight container in a cool, dry place.",
-                "ImageUrl": "replace_with_actual_url"
+                "ImageUrl": "/images/oats.jpg",
+                "price":2
             },
             {
                 "Id": "GRAIN004",
@@ -502,7 +530,8 @@
                 },
                 "Ripeness": "Choose barley that is plump and free from impurities.",
                 "StorageTips": "Store barley in an airtight container in a cool, dry place.",
-                "ImageUrl": "replace_with_actual_url"
+                "ImageUrl": "/images/barley.jpg",
+                "price":1.0
             },
             {
                 "Id": "GRAIN005",
@@ -519,7 +548,8 @@
                 },
                 "Ripeness": "Choose cornmeal that is finely ground and free from clumps.",
                 "StorageTips": "Store cornmeal in an airtight container in a cool, dry place.",
-                "ImageUrl": "replace_with_actual_url"
+                "ImageUrl": "/images/cornmeal.jpg",
+                "price":0.8
             },
             {
                 "Id": "GRAIN006",
@@ -536,12 +566,14 @@
                 },
                 "Ripeness": "Choose millet that is free from impurities and has a consistent color.",
                 "StorageTips": "Store millet in an airtight container in a cool, dry place.",
-                "ImageUrl": "replace_with_actual_url"
+                "ImageUrl": "/images/millet.jpg",
+                "price":0.3
             }
         ]
     },    
     {
         "category": "Household and Cleaning",
+        "categoryUrlImage": "/images/house-hold-category.svg",
         "items": [
             {
                 "Id": "HCL001",
@@ -549,7 +581,8 @@
                 "Description": "Keeps your home smelling fresh and clean.",
                 "Usage": "Spray in the air and on surfaces for a fresh scent.",
                 "StorageTips": "Store in a cool, dry place away from direct sunlight.",
-                "ImageUrl": "replace_with_actual_url"
+                "ImageUrl": "/images/air freshener.jpg",
+                "price":3.5
             },
             {
                 "Id": "HCL002",
@@ -557,7 +590,8 @@
                 "Description": "Effective at removing grease and grime from dishes.",
                 "Usage": "Apply to a sponge or directly on dishes, then rinse thoroughly.",
                 "StorageTips": "Store in a cool, dry place.",
-                "ImageUrl": "replace_with_actual_url"
+                "ImageUrl": "/images/dish soap.jpg",
+                "price":1.0
             },
             {
                 "Id": "HCL003",
@@ -565,7 +599,8 @@
                 "Description": "Durable and reliable bags for waste disposal.",
                 "Usage": "Line trash bins to collect and dispose of waste.",
                 "StorageTips": "Store in a cool, dry place.",
-                "ImageUrl": "replace_with_actual_url"
+                "ImageUrl": "/images/garbage bags.jpg",
+                "price":4
             },
             {
                 "Id": "HCL004",
@@ -573,7 +608,8 @@
                 "Description": "Cleans clothes effectively, removing stains and odors.",
                 "Usage": "Use the recommended amount in your washing machine.",
                 "StorageTips": "Store in a cool, dry place.",
-                "ImageUrl": "replace_with_actual_url"
+                "ImageUrl": "/images/laundry detergent.jpg",
+                "price":5.0
             },
             {
                 "Id": "HCL005",
@@ -581,7 +617,8 @@
                 "Description": "Absorbent towels for cleaning up spills and messes.",
                 "Usage": "Tear off a sheet and use as needed.",
                 "StorageTips": "Store in a dry place.",
-                "ImageUrl": "replace_with_actual_url"
+                "ImageUrl": "/images/paper towels.jpg",
+                "price":0.8
             },
             {
                 "Id": "HCL006",
@@ -589,7 +626,8 @@
                 "Description": "Versatile cleaning tools for dishes and surfaces.",
                 "Usage": "Wet and use with cleaning solution to scrub surfaces.",
                 "StorageTips": "Store in a dry place.",
-                "ImageUrl": "replace_with_actual_url"
+                "ImageUrl": "/images/sponges.jpg",
+                "price":0.4
             },
             {
                 "Id": "HCL007",
@@ -597,7 +635,8 @@
                 "Description": "Multi-purpose cleaner for various surfaces.",
                 "Usage": "Spray on surfaces and wipe clean with a cloth.",
                 "StorageTips": "Store in a cool, dry place.",
-                "ImageUrl": "replace_with_actual_url"
+                "ImageUrl": "/images/surface spray.jpg",
+                "price":2.0
             }
         ]
     }

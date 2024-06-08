@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groceries Wheel</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header id="main-header" class="mainHeader"></header>
+    <main>
+        <div id="upper-section">
+            <div>
+                <h2>Your Cart</h2>
+            </div>
+            <section class="welcome-paragraph">
+                <p></p>
+            </section>
+        </div>
+       <section id="cart-items">
+           <!-- Cart items will be dynamically loaded here -->
+       </section><br>
+       <section id="calculations">
+            <div>Subtotal: <span id="subtotal">$0.00</span></div>
+            <div>Shipping Estimate: <span id="shipping">$0.00</span></div>
+            <div>Tax: <span id="tax">$0.00</span></div>
+            <div>Total: <span id="total">$0.00</span></div>
+       </section>
+       <section>
+            <div id="check-out">
+                <a href="/checkout/index.html"><button id="checkout-button">Checkout</button></a>
+            </div>
+       </section>
+    </main>
+    <script type="module" src="../js/cart.js"></script>
+    <footer id="main-footer" class="mainFooter"></footer>
+
+</body>
+</html>

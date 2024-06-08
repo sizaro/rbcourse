@@ -117,7 +117,7 @@
       },
       {
         "category": "Vegetables",
-        "categoryUrlImage":"/images/vegetables-category.svg",
+        "categoryUrlImage":"/images/vegetables-category.jpg",
         "items": [
           {
             "Id": "VEG001",
@@ -345,7 +345,7 @@
       },
       {
         "category": "Spices",
-        "categoryUrlImage":"/images/spices-category.svg",
+        "categoryUrlImage":"/images/spices-category.jpg",
         "items": [
           {
             "Id": "SPICE001",
@@ -459,7 +459,7 @@
       },
       {
         "category": "Grains",
-        "categoryUrlImage": "/images/grains-category.svg",
+        "categoryUrlImage": "/images/grains-category.jpeg",
         "items": [
             {
                 "Id": "GRAIN001",
@@ -573,7 +573,7 @@
     },    
     {
         "category": "Household and Cleaning",
-        "categoryUrlImage": "/images/house-hold-category.svg",
+        "categoryUrlImage": "/images/household-category.jpg",
         "items": [
             {
                 "Id": "HCL001",

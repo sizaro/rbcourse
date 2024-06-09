@@ -1,13 +1,16 @@
+import { dynamicHeaderFooter } from "./utils.mjs";
+dynamicHeaderFooter()
+
+
 class CheckoutProcess {
   constructor(cartItems) {
     this.cartItems = cartItems;
     this.taxRate = 0.06; // 6% sales tax
     this.baseShippingCost = 10; // $10 for the first item
     this.additionalShippingCost = 2; // $2 for each additional item
-  
   }
 
-  //methods handling calculations
+  // Methods handling calculations
 
   calculateSubtotal() {
     console.log("Cart Items in Subtotal Calculation:", this.cartItems);
@@ -62,6 +65,31 @@ document.addEventListener("DOMContentLoaded", () => {
     return;
   }
 
+  function removeFromCart(event) {
+    const productId = event.target.getAttribute('data-id');
+    console.log('Removing product with ID:', productId); // Check if the correct ID is being retrieved
+
+    const indexToRemove = cartItems.findIndex(item => item.Id === productId);
+    if (indexToRemove !== -1) {
+      cartItems.splice(indexToRemove, 1); // Remove the item from the array
+    }
+
+    console.log('Updated cart items after removal:', cartItems); // Check the updated cart items
+
+    // Update local storage
+    localStorage.setItem('gw', JSON.stringify(cartItems));
+
+    // Remove the corresponding HTML element from the page
+    const cartItemElement = event.target.closest('.cart-item');
+    if (cartItemElement) {
+      cartItemElement.remove();
+    }
+
+    // Re-render the order summary
+    const checkoutProcess = new CheckoutProcess(cartItems);
+    checkoutProcess.displayOrderSummary();
+  }
+
   // Displaying cart items in the summary
   const cartItemsContainer = document.getElementById("cart-items");
   cartItemsContainer.innerHTML = cartItems
@@ -70,14 +98,22 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="cart-item">
             <p>${item.Name}</p>
             <img src="${item.ImageUrl}" alt="${item.Name}"/>
-            <p>Quantity: ${item.quantity}</p>
             <p>Price: $${item.price}</p>
+            <div class="buttons">
+            <button class="removeFromCart" data-id="${item.Id}">Remove From Cart</button>
+            </div>
         </div>
     `
     )
     .join("");
 
-  // Initializing CheckoutProcess and displaying order summary
+  // Attach event listeners to remove from cart buttons
+  const removeButtons = document.querySelectorAll('.removeFromCart');
+  removeButtons.forEach(button => {
+    button.addEventListener('click', removeFromCart);
+  });
+
+  // Initialize and display the order summary
   const checkoutProcess = new CheckoutProcess(cartItems);
   checkoutProcess.displayOrderSummary();
 });
